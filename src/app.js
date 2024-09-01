@@ -1,20 +1,20 @@
 // const { emailTemplate } = require('./js-foundation/template')
 // require('./js-foundation/desctructuring')
-const { getUserById } = require('./js-foundation/03-callbacks')
+// const { getUserById } = require('./js-foundation/03-callbacks')
+require('./js-foundation/05-factory')
 
+// const id = 1;
 
-const id = 1;
+// getUserById(id,  (error, user) => {
+//     if (error) {
+//         throw new Error(error)
 
-getUserById(id,  (error, user) => {
-    if (error) {
-        throw new Error(error)
-
-    }
-    getUserById(2,  (error, user2) => {
-        if (error) {
-            throw new Error(error)
-        }
-        console.log({ user, user2 })
-    })
-})
+//     }
+//     getUserById(2,  (error, user2) => {
+//         if (error) {
+//             throw new Error(error)
+//         }
+//         console.log({ user, user2 })
+//     })
+// })
 // console.log(emailTemplate)
