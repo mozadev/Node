@@ -16,6 +16,13 @@ getPokemonById(4)
 
 
 
+
+
+// access token
+    // public
+
+
+
 // ! Reference to factory's function
 
 

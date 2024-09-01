@@ -1,10 +1,13 @@
 
-const getPokemonById = async(id) => {
+const {http} = require('../plugins')
+
+const getPokemonById = async (id) => {
 
     const url = `https://pokeapi.co/api/v2/pokemon/${id}`
 
-    const rep = await fetch(url)
-    const pokemon = await rep.json()
+    const pokemon = await http.get(url)
+    // const rep = await fetch(url)
+    // const pokemon = await rep.json()
 
     // return Promise.resolve(10)
 
