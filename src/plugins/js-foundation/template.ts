@@ -1,4 +1,4 @@
-const emailTemplate = `
+export const emailTemplate = `
 <div>
 <h1>
 hi, {{name}}</h1>
@@ -10,6 +10,3 @@ hi, {{name}}</h1>
 <p>Thank cx </p>
 </div>
 `
-module.exports = {
-    emailTemplate
-}
