@@ -7,8 +7,8 @@ const { SHELL, HOMEBREW_PREFIX, npm_lifecycle_script } = process.env;
 
 // console.table({ SHELL, HOMEBREW_PREFIX, npm_lifecycle_script })
 
-const characters = ['flash', 'green lantern','super', 'bat']
+export const characters = ['Flash', 'Superman', 'Green Lantern', 'Batman' ]
 
-    const [, , , batman] = characters;
+const [, , , batman] = characters;
 
 // console.log(batman)
