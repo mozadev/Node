@@ -1,95 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1725328088890" clover="3.2.0">
-  <project timestamp="1725328088890" name="All files">
-    <metrics statements="77" coveredstatements="77" conditionals="6" coveredconditionals="5" methods="2" coveredmethods="2" elements="85" coveredelements="84" complexity="0" loc="77" ncloc="77" packages="1" files="4" classes="4"/>
-    <file name="01-template.ts" path="/home/ceos/projects/node/bases/src/js-foundation/01-template.ts">
-      <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <line num="1" count="1" type="stmt"/>
-      <line num="2" count="1" type="stmt"/>
-      <line num="3" count="1" type="stmt"/>
-      <line num="4" count="1" type="stmt"/>
-      <line num="5" count="1" type="stmt"/>
-      <line num="6" count="1" type="stmt"/>
-      <line num="7" count="1" type="stmt"/>
-      <line num="8" count="1" type="stmt"/>
-      <line num="9" count="1" type="stmt"/>
-    </file>
-    <file name="02-destructuring.ts" path="/home/ceos/projects/node/bases/src/js-foundation/02-destructuring.ts">
-      <metrics statements="14" coveredstatements="14" conditionals="1" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <line num="1" count="1" type="stmt"/>
-      <line num="2" count="1" type="stmt"/>
-      <line num="3" count="1" type="stmt"/>
-      <line num="4" count="1" type="cond" truecount="0" falsecount="1"/>
-      <line num="5" count="1" type="stmt"/>
-      <line num="6" count="1" type="stmt"/>
-      <line num="7" count="1" type="stmt"/>
-      <line num="8" count="1" type="stmt"/>
-      <line num="9" count="1" type="stmt"/>
-      <line num="10" count="1" type="stmt"/>
-      <line num="11" count="1" type="stmt"/>
-      <line num="12" count="1" type="stmt"/>
-      <line num="13" count="1" type="stmt"/>
-      <line num="14" count="1" type="stmt"/>
-    </file>
-    <file name="03-callbacks.ts" path="/home/ceos/projects/node/bases/src/js-foundation/03-callbacks.ts">
-      <metrics statements="26" coveredstatements="26" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
-      <line num="1" count="1" type="stmt"/>
-      <line num="2" count="1" type="stmt"/>
-      <line num="3" count="1" type="stmt"/>
-      <line num="4" count="1" type="stmt"/>
-      <line num="5" count="1" type="stmt"/>
-      <line num="6" count="1" type="stmt"/>
-      <line num="7" count="1" type="stmt"/>
-      <line num="8" count="1" type="stmt"/>
-      <line num="9" count="1" type="stmt"/>
-      <line num="10" count="1" type="stmt"/>
-      <line num="11" count="1" type="stmt"/>
-      <line num="12" count="1" type="stmt"/>
-      <line num="13" count="1" type="stmt"/>
-      <line num="14" count="1" type="stmt"/>
-      <line num="15" count="1" type="stmt"/>
-      <line num="16" count="2" type="cond" truecount="1" falsecount="0"/>
-      <line num="17" count="2" type="cond" truecount="1" falsecount="0"/>
-      <line num="18" count="3" type="stmt"/>
-      <line num="19" count="2" type="stmt"/>
-      <line num="20" count="2" type="stmt"/>
-      <line num="21" count="2" type="cond" truecount="1" falsecount="0"/>
-      <line num="22" count="1" type="stmt"/>
-      <line num="23" count="1" type="stmt"/>
-      <line num="24" count="1" type="stmt"/>
-      <line num="25" count="1" type="stmt"/>
-      <line num="26" count="1" type="stmt"/>
-    </file>
-    <file name="05-factory.ts" path="/home/ceos/projects/node/bases/src/js-foundation/05-factory.ts">
-      <metrics statements="28" coveredstatements="28" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-      <line num="1" count="1" type="stmt"/>
-      <line num="2" count="1" type="stmt"/>
-      <line num="3" count="1" type="stmt"/>
-      <line num="4" count="1" type="stmt"/>
-      <line num="5" count="1" type="stmt"/>
-      <line num="6" count="1" type="stmt"/>
-      <line num="7" count="1" type="stmt"/>
-      <line num="8" count="1" type="stmt"/>
-      <line num="9" count="1" type="stmt"/>
-      <line num="10" count="1" type="stmt"/>
-      <line num="11" count="1" type="stmt"/>
-      <line num="12" count="1" type="stmt"/>
-      <line num="13" count="1" type="stmt"/>
-      <line num="14" count="1" type="stmt"/>
-      <line num="15" count="1" type="cond" truecount="1" falsecount="0"/>
-      <line num="16" count="2" type="stmt"/>
-      <line num="17" count="2" type="cond" truecount="1" falsecount="0"/>
-      <line num="18" count="1" type="stmt"/>
-      <line num="19" count="1" type="stmt"/>
-      <line num="20" count="1" type="stmt"/>
-      <line num="21" count="1" type="stmt"/>
-      <line num="22" count="1" type="stmt"/>
-      <line num="23" count="1" type="stmt"/>
-      <line num="24" count="1" type="stmt"/>
-      <line num="25" count="1" type="stmt"/>
-      <line num="26" count="2" type="stmt"/>
-      <line num="27" count="2" type="stmt"/>
-      <line num="28" count="2" type="stmt"/>
-    </file>
+<coverage generated="1725335066569" clover="3.2.0">
+  <project timestamp="1725335066569" name="All files">
+    <metrics statements="40" coveredstatements="40" conditionals="5" coveredconditionals="5" methods="6" coveredmethods="3" elements="51" coveredelements="48" complexity="0" loc="40" ncloc="40" packages="2" files="3" classes="3"/>
+    <package name="js-foundation">
+      <metrics statements="16" coveredstatements="16" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+      <file name="07-async-awai.ts" path="/home/ceos/projects/node/bases/src/js-foundation/07-async-awai.ts">
+        <metrics statements="16" coveredstatements="16" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="plugins">
+      <metrics statements="24" coveredstatements="24" conditionals="2" coveredconditionals="2" methods="5" coveredmethods="2"/>
+      <file name="get-age.plugin.ts" path="/home/ceos/projects/node/bases/src/plugins/get-age.plugin.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/home/ceos/projects/node/bases/src/plugins/index.ts">
+        <metrics statements="16" coveredstatements="16" conditionals="1" coveredconditionals="1" methods="4" coveredmethods="1"/>
+        <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+      </file>
+    </package>
   </project>
 </coverage>
