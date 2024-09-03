@@ -1,6 +1,6 @@
-import { characters } from '../../src/plugins/js-foundation/02-destructuring';
+import { characters } from '../../src/js-foundation/02-destructuring';
 
-describe('js-foundation/js-foundation/02-destructuring.ts', () => {
+describe('js-foundation/02-destructuring.ts', () => {
 
     test('characters should contain Flash, Superman, Batman', () => {
 
